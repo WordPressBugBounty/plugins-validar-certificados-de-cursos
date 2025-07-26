@@ -1,0 +1,350 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-06-10 20:30-0500\n"
+"PO-Revision-Date: 2025-06-10 20:46-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.6\n"
+
+#: admin/partials/class-stvc-admin-dashboard.php:17
+msgid "ValidateCertify Free"
+msgstr "ValidateCertify Free"
+
+#: admin/partials/class-stvc-admin-dashboard.php:30
+msgid "Access your tools"
+msgstr "访问您的工具"
+
+#: admin/partials/class-stvc-admin-dashboard.php:33
+msgid "Add a certificate."
+msgstr "添加证书。"
+
+#: admin/partials/class-stvc-admin-dashboard.php:34
+#: includes/class-stvc-menu.php:92 includes/class-stvc-notification.php:21
+msgid "Add Certificate"
+msgstr "添加证书"
+
+#: admin/partials/class-stvc-admin-dashboard.php:37
+msgid "Review ShortCorde."
+msgstr "评论 ShortCorde。"
+
+#: admin/partials/class-stvc-admin-dashboard.php:38
+#: admin/partials/class-stvc-admin-display.php:27
+#: includes/class-stvc-menu.php:45 includes/class-stvc-menu.php:46
+#: includes/class-stvc-menu.php:538 includes/class-stvc-menu.php:542
+msgid "Tools"
+msgstr "工具"
+
+#: admin/partials/class-stvc-admin-display.php:13
+msgid "Documentation"
+msgstr "文档"
+
+#: admin/partials/class-stvc-admin-display.php:14
+msgid "Rate the plugin ★★★★★"
+msgstr "评价插件★★★★★"
+
+#: admin/partials/class-stvc-admin-display.php:44
+msgid ""
+"With ValidateCertify Free, you can guarantee the authenticity and veracity "
+"of the certificates issued, providing confidence to your students and those "
+"who validate them. Simplify the verification process and improve the "
+"experience of your users with ValidateCertify. Load your certificate base "
+"and validate them with the code from your website."
+msgstr ""
+"使用 ValidateCertify Free，您可以保证颁发的证书的真实性和真实性，从而为您的学"
+"生和验证证书的人提供信心。使用 ValidateCertify 简化验证过程并改善用户体验。加"
+"载您的证书库并使用您网站上的代码对其进行验证。"
+
+#: admin/partials/class-stvc-admin-display.php:67
+msgid "Have you enjoyed ValidateCertify? Please leave us a review "
+msgstr "您喜欢 ValidateCertify 吗？请给我们留下评论"
+
+#: admin/partials/class-stvc-admin-display.php:69
+msgid "We really appreciate your support!"
+msgstr "我们非常感谢你的支持！"
+
+#: admin/partials/class-stvc-admin-display.php:80
+msgid "Version"
+msgstr "版本"
+
+#: admin/partials/class-stvc-admin-display.php:80
+msgid "Version ValidateCertify Free"
+msgstr "版本 ValidateCertify Free"
+
+#: admin/partials/class-stvc-shortcode.php:50 includes/class-stvc-menu.php:367
+#: includes/class-stvc-menu.php:389 includes/class-stvc-menu.php:488
+#: includes/class-stvc-menu.php:526
+msgid "Code:"
+msgstr "代码："
+
+#: admin/partials/class-stvc-shortcode.php:51 includes/class-stvc-menu.php:334
+#: includes/class-stvc-menu.php:484
+msgid "Name:"
+msgstr "名称："
+
+#: admin/partials/class-stvc-shortcode.php:52 includes/class-stvc-menu.php:338
+#: includes/class-stvc-menu.php:485
+msgid "Last Name:"
+msgstr "姓氏："
+
+#: admin/partials/class-stvc-shortcode.php:53 includes/class-stvc-menu.php:342
+#: includes/class-stvc-menu.php:486
+msgid "Course:"
+msgstr "课程："
+
+#: admin/partials/class-stvc-shortcode.php:54
+msgid "Date of issue:"
+msgstr "发布日期："
+
+#: admin/partials/class-stvc-shortcode.php:58
+msgid "You want to perform another search?"
+msgstr "您要执行另一次搜索？"
+
+#: admin/partials/class-stvc-shortcode.php:63
+msgid "The code entered is not valid. Please enter a valid code."
+msgstr "输入的代码无效。请输入有效的验证码。"
+
+#: admin/partials/class-stvc-shortcode.php:68
+msgid "Please enter a Valid Certificate Code"
+msgstr "请输入有效的证书代码"
+
+#: admin/partials/class-stvc-shortcode.php:75 includes/class-stvc-menu.php:101
+#: includes/class-stvc-menu.php:368 includes/class-stvc-menu.php:390
+#: includes/class-stvc-menu.php:527
+msgid "Enter the code here"
+msgstr "在此处输入代码"
+
+#: admin/partials/class-stvc-shortcode.php:76
+msgid "Consult"
+msgstr "咨询"
+
+#: includes/class-stvc-menu.php:11 includes/class-stvc-menu.php:12
+msgid "ValidateCertify"
+msgstr "ValidateCertify"
+
+#: includes/class-stvc-menu.php:21 includes/class-stvc-menu.php:22
+#: includes/class-stvc-menu.php:202 includes/class-stvc-menu.php:206
+msgid "Add New Certificate"
+msgstr "添加新的证书"
+
+#: includes/class-stvc-menu.php:29 includes/class-stvc-menu.php:30
+msgid "Edit Certificate"
+msgstr "编辑证书"
+
+#: includes/class-stvc-menu.php:37 includes/class-stvc-menu.php:38
+msgid "Delete Certificate"
+msgstr "删除证书"
+
+#: includes/class-stvc-menu.php:88
+msgid "Certificates Issued"
+msgstr "已发放证书"
+
+#: includes/class-stvc-menu.php:91
+msgid "Certificate Base"
+msgstr "证书库"
+
+#: includes/class-stvc-menu.php:100
+msgid "Search by Code:"
+msgstr "按代码搜索："
+
+#: includes/class-stvc-menu.php:102
+msgid "Search"
+msgstr "搜索"
+
+#: includes/class-stvc-menu.php:107
+msgid "Show groups of:"
+msgstr "显示组："
+
+#: includes/class-stvc-menu.php:117 includes/class-stvc-menu.php:222
+msgid "Name"
+msgstr "名称"
+
+#: includes/class-stvc-menu.php:118 includes/class-stvc-menu.php:228
+msgid "Last Name"
+msgstr "姓"
+
+#: includes/class-stvc-menu.php:119 includes/class-stvc-menu.php:234
+msgid "Course"
+msgstr "课程"
+
+#: includes/class-stvc-menu.php:120 includes/class-stvc-menu.php:240
+msgid "Date"
+msgstr "日期"
+
+#: includes/class-stvc-menu.php:121 includes/class-stvc-menu.php:216
+msgid "Code"
+msgstr "代码"
+
+#: includes/class-stvc-menu.php:143
+#, php-format
+msgid "%02s certificates"
+msgstr "%02s证书"
+
+#: includes/class-stvc-menu.php:152
+#, php-format
+msgid "Page %1$02s de %1$02s"
+msgstr "第 %1$02s 页 %1$02s"
+
+#: includes/class-stvc-menu.php:172 includes/class-stvc-menu.php:176
+#: includes/class-stvc-menu.php:404
+msgid "Access denied"
+msgstr "拒绝访问"
+
+#: includes/class-stvc-menu.php:198
+msgid "The certificate has been saved correctly."
+msgstr "证书已正确保存。"
+
+#: includes/class-stvc-menu.php:208
+msgid "Add a new record to the certificate database"
+msgstr "向证书数据库添加新记录"
+
+#: includes/class-stvc-menu.php:245
+msgid "Save Certificate"
+msgstr "保存证书"
+
+#: includes/class-stvc-menu.php:256
+msgid "The date must be between the years 1950 and 2099."
+msgstr "该日期必须介于 1950 年和 2099 年之间。"
+
+#: includes/class-stvc-menu.php:315
+msgid "Certificate modified successfully!"
+msgstr "已成功修改证书！"
+
+#: includes/class-stvc-menu.php:321 includes/class-stvc-menu.php:325
+#: includes/class-stvc-menu.php:356 includes/class-stvc-menu.php:360
+#: includes/class-stvc-menu.php:378 includes/class-stvc-menu.php:382
+msgid "Edit Certificates"
+msgstr "编辑证书"
+
+#: includes/class-stvc-menu.php:327
+msgid ""
+"Update your certificate data, remember that once done, previous data will be "
+"lost."
+msgstr "更新您的证书数据，请记住，一旦完成，以前的数据将丢失"
+
+#: includes/class-stvc-menu.php:346 includes/class-stvc-menu.php:487
+msgid "Date:"
+msgstr "日期："
+
+#: includes/class-stvc-menu.php:349
+msgid "Update certificate"
+msgstr "更新证书"
+
+#: includes/class-stvc-menu.php:350 includes/class-stvc-menu.php:493
+msgid "Cancel"
+msgstr "取消"
+
+#: includes/class-stvc-menu.php:362
+msgid "The certificate is not valid. Please enter a "
+msgstr "证书无效。请输入"
+
+#: includes/class-stvc-menu.php:362
+msgid "Valid Certificate Code "
+msgstr "有效的证书代码"
+
+#: includes/class-stvc-menu.php:362
+msgid "to modify names, last names, courses and/or issue date."
+msgstr "修改姓名、姓氏、课程和/或发布日期"
+
+#: includes/class-stvc-menu.php:370 includes/class-stvc-menu.php:392
+msgid "Search certificate"
+msgstr "搜索证书"
+
+#: includes/class-stvc-menu.php:384
+msgid ""
+"Enter the Certificate code to modify, to update the names, last name, "
+"courses and/or date of issue."
+msgstr "输入要修改的证书代码，以更新姓名、姓氏、课程和/或颁发日期"
+
+#: includes/class-stvc-menu.php:424 includes/class-stvc-menu.php:428
+#: includes/class-stvc-menu.php:438 includes/class-stvc-menu.php:442
+#: includes/class-stvc-menu.php:476 includes/class-stvc-menu.php:480
+#: includes/class-stvc-menu.php:492 includes/class-stvc-menu.php:501
+#: includes/class-stvc-menu.php:505 includes/class-stvc-menu.php:515
+#: includes/class-stvc-menu.php:519
+msgid "Delete Certificates"
+msgstr "删除证书"
+
+#: includes/class-stvc-menu.php:430
+msgid "The certificate was removed from the database."
+msgstr "证书已从数据库中删除"
+
+#: includes/class-stvc-menu.php:432
+msgid "Return"
+msgstr "返回"
+
+#: includes/class-stvc-menu.php:444
+msgid "Could not delete certificate, an error occurred."
+msgstr "无法删除证书，发生错误"
+
+#: includes/class-stvc-menu.php:447 includes/class-stvc-menu.php:508
+msgid "Search again"
+msgstr "重新搜索"
+
+#: includes/class-stvc-menu.php:482
+msgid "Are you sure you want to delete the following certificate?"
+msgstr "是否确实要删除以下证书？"
+
+#: includes/class-stvc-menu.php:507
+msgid "No certificate was found with that code, please enter a valid code."
+msgstr "未找到包含该代码的证书，请输入有效代码"
+
+#: includes/class-stvc-menu.php:521
+msgid ""
+"Enter the Certificate code to delete, once deleted it cannot be recovered."
+msgstr "输入要删除的证书代码，一旦删除将无法恢复"
+
+#: includes/class-stvc-menu.php:529
+msgid "Search Certificates"
+msgstr "搜索证书"
+
+#: includes/class-stvc-menu.php:544
+msgid "ShortCode ValidateCertify"
+msgstr "短代码 ValidateCertify"
+
+#: includes/class-stvc-menu.php:545
+msgid ""
+"Add the shortcode on the page where the certificates will be validated, the "
+"search will be by code."
+msgstr "在将验证证书的页面上添加短代码，将按代码进行搜索。"
+
+#: includes/class-stvc-menu.php:556
+msgid "Copy Shortcode"
+msgstr "复制短代码"
+
+#: includes/class-stvc-menu.php:565
+msgid "Shortcode copied to clipboard"
+msgstr "复制到剪贴板的短码"
+
+#: includes/class-stvc-notification.php:18
+msgid "Thank you for installing ValidateCertify Free!"
+msgstr "感谢您安装 ValidateCertify Free！"
+
+#: includes/class-stvc-notification.php:19
+msgid ""
+"The new version is packed with enhancements designed to enrich your "
+"experience. We’d love to hear your thoughts on the updates we’ve made with "
+"you in mind. Help us continue improving for you and everyone else by leaving "
+"a review. Your feedback makes all the difference!"
+msgstr ""
+"新版本包含旨在丰富您的体验的增强功能。我们很想听听您对我们所做的更新的看法。"
+"通过留下评论，帮助我们为您和其他人不断改进。您的反馈让一切变得不同！"
+
+#: includes/class-stvc-notification.php:22
+msgid "Maybe later"
+msgstr "以后再说"
+
+#: includes/class-stvc-notification.php:23
+msgid "Leave a review"
+msgstr "留下评论"

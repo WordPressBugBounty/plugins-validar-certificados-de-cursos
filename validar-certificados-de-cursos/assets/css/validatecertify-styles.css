@@ -1,0 +1,392 @@
+#codigomuestra {
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-bottom: 12px;
+	font-size: 16px;
+	text-align: center;
+}
+
+.button-primary {
+	background-color: #0088CC;
+	color: white;
+	padding: 0.5em 1em;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+.certificado-table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.certificado-table td, .certificado-table th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+.certificado-table tr:nth-child(even){background-color: #f2f2f2;}
+
+/*.certificado-table tr:hover {background-color: #ddd;}*/
+
+.error-vc {
+	color: red;
+}
+
+.certificado-table th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #4CAF50;
+	color: white;
+	font-size: 16px;
+}
+
+.invalid-code {
+	font-size: 16px;
+	text-align: center;
+}
+
+.close-button {
+	padding: 8px 18px 8px 18px;
+	background-color: #f44336;
+	color: #ffffff;
+	text-decoration: none;
+	border-radius: 5px;
+	border: 1px solid #007cba;
+	padding-left: 40px;
+}
+
+.close-icon {
+	width: 10px;
+	height: 10px;
+	vertical-align: middle;
+	margin-right: 10px;
+	background-position: 10px 10px;
+	padding-left: 40px;
+}
+
+/* .stvc-dismiss {
+	background-image: url('../css/close.svg', dirname( __FILE__ ));
+} */
+
+.stvc-notice-action {
+	background-repeat: no-repeat;
+	padding-left: 40px;
+	background-position: 18px 8px;
+	cursor: pointer;
+}
+
+.stvc-notice-actionw {
+	padding: 8px 18px 8px 18px;
+	background: #ffff;
+	color: #007cba;
+	border-radius: 5px;
+	border: 1px solid #007cba;
+}
+
+.custom-dashboard-widget-stvc {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.custom-dashboard-widget-stvc p {
+	margin-right: 20px; 
+}
+
+
+.centered-content-stvc {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.centered-content-stvc form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+	margin-bottom: 10px;
+}
+
+.wrap {
+	margin: 10px 20px 0 2px;
+}
+
+#top-menu{
+	display: block;
+}
+
+#encabezado-menu{
+	background-color: #fff;
+	font-family: var(--e-a-font-family);
+	right: 0;
+	left: -20px;
+	box-shadow: 0 4px 6px rgba(0,0,0,.03);
+	position: absolute;
+/* 	width: 105%; */
+}
+
+.mi-plugin-titulo {
+	font-size: 15px;
+	color: #333;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 25px;
+	font-weight: 700;
+	align-items: center;
+}
+
+.mi-plugin-titulo h2,
+.mi-plugin-titulo h1 {
+    margin: 0;
+}
+
+.wp-heading-inline {
+	display: inline-block;
+	margin-top: 10px;
+	font-size: 24px;
+}
+
+.h1 .wp-heading-inline{
+	margin-bottom: 10px;
+}
+
+.wp-header-end {
+	visibility: hidden;
+	margin: -2px 0 0;
+}
+
+p.search-box {
+	float: right;
+	margin: 0;
+}
+
+.wp-list-table {
+	margin-top: 1em;
+}
+
+#table.widefat {
+	border: 1px solid #c3c4c7;
+	box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.table.fixed {
+	table-layout: fixed;
+}
+
+.widefat {
+	border-spacing: 0;
+	width: 100%;
+	clear: both;
+	margin: 0;
+	margin-top: 0px;
+}
+
+.title-page-st{
+	margin-top: 70px;
+}
+
+.page-title-action {
+	font-size: 13px;
+	font-weight: 500;
+	line-height: 1.2;
+	
+	text-decoration: none;
+	padding: 8px 16px;
+	outline: none;
+	border: none;
+	border-radius: 4px;
+	background-color: #2271b1;
+	color: white;
+
+}
+
+.page-title-action:hover {
+	background-color: #1678c2;
+	color: white;
+	}
+	
+
+/* Estilos para el formulario */
+.ui.form {
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+/* Estilos para los campos */
+	.ui.form .field {
+	margin-bottom: 1em;
+}
+
+.ui.form label {
+	display: block;
+}
+
+.ui.form .ui.labeled.input > label {
+	width: auto; 
+}
+
+.ui.form input[type="text"],
+.ui.form input[type="date"] {
+	width: 100%; 
+	padding: 0.2em; 
+	border: 1.5px solid #ccc; 
+	border-radius: 4px; 
+}
+
+/* Estilos para el botón */
+.ui.form input[type="submit"] {
+	padding: 0.5em 1em; 
+	background-color: #2271b1;
+	color: #FFF; 
+	border: none; 
+	border-radius: 4px;
+	cursor: pointer; 
+}
+
+.ui.form input[type="submit"]:hover {
+	background-color: #1678c2; 
+}
+
+/* Estilos para el botón primario */
+.ui.primary.button {
+	background-color: #2271b1;
+	color: #FFF;
+	border: none; 
+	border-radius: 4px; 
+	padding: 0.5em 1em; 
+	cursor: pointer; 
+}
+
+.ui.primary.button:hover {
+	background-color: #1678c2;
+}
+
+/* Estilos para el botón secundario */
+.ui.secondary.button {
+	background-color: #f8f8f8; 
+	color: #333; 
+	border: 1px solid #ccc; 
+	border-radius: 4px; 
+	padding: 0.5em 1em; 
+	cursor: pointer; 
+}
+
+.ui.secondary.button:hover {
+	background-color: #e0e0e0;
+}
+/* Estilos para la tabla */
+.ui.table {
+	width: 100%; 
+	border-collapse: collapse;
+}
+
+/* Estilos para las filas impares */
+.ui.table tbody tr:nth-child(odd) {
+	background-color: #f9f9f9;
+}
+
+/* Estilos para las celdas */
+.ui.table th,
+.ui.table td {
+	padding: 0.5em;
+	border: 1px solid #ddd; 
+}
+
+/* Estilos para las cabeceras */
+.ui.table th {
+	background-color: #f2f2f2; 
+	font-weight: bold;
+}
+
+/* Estilos para la segment UI */
+.ui.segment {
+	border-radius: 0.28571429rem;
+	padding: 1em 1em;
+}
+
+/* Estilos para la grid UI */
+.ui.grid {
+	margin-left: -1rem;
+	margin-right: -1rem;
+}
+
+.ui.grid > .column {
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+/* Estilos para la rejilla de dos columnas */
+.ui.two.column.grid {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.ui.two.column.grid > .column {
+	flex: 0 0 auto;
+	width: 50%;
+	box-sizing: border-box;
+	padding: 0 1em; 
+}
+
+/* Estilos para los inputs con etiquetas */
+.ui.labeled.input {
+	display: flex;
+	align-items: stretch;
+}
+
+.ui.labeled.input > input {
+	flex: 1;
+}
+
+/* Estilos para los botones */
+.ui.button {
+	display: inline-block;
+	vertical-align: middle;
+	outline: 0;
+	border: none;
+	border-radius: 0.28571429rem;
+	padding: 0.6em 1em;
+	margin: 0 0 0 0px;
+	cursor: pointer;
+	text-align: center;
+	white-space: nowrap;
+	background-color: #2271b1;
+	color: #333;
+}
+
+.ui.button:hover {
+	background-color: #e0e0e0;
+}
+
+/* Estilos para dispositivos móviles (celulares) */
+@media screen and (max-width:600px) {
+
+
+	
+	.ui.form {
+		max-width: 350px;
+		margin: 0 auto;
+	}
+
+	.wrap .page-title-action{
+		padding: 1px 10px;
+	}
+	
+	p.search-box{
+		display: flow-root list-item;
+	}
+
+	.mi-plugin-titulo{
+		padding-left: 25px;
+	}
+
+}
