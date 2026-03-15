@@ -2,11 +2,11 @@
 
 Contributors      : @jrevillah
 Requires at least : 6.3
-Tested up to      : 6.8.1
-Stable tag        : 1.6.4
+Tested up to      : 6.9.4
+Stable tag        : 1.6.5
 Requires PHP      : 7.4
-License           : GPLv2 or later
-License URI       : https://www.gnu.org/licenses/gpl-2.0.html
+License           : GPLv3 or later
+License URI       : https://www.gnu.org/licenses/gpl-3.0.html
 Donate link       : https://systenjrh.com/plugin-validatecertify/#versionpro
 Tags              : education, sell courses, certificate, certificates, online course
 
@@ -120,6 +120,13 @@ English (United States) and Spanish.
 8. View of the search performed.
 
 == Changelog ==
+
+= 1.6.5 - 2026-03-14 =
+
+* Tweak: Improve compatibility with version 6.9
+* New: Date control and validation
+* New: Date validation, supports dates from 2000 to 2099
+* Fix: Internal optimization
 
 = 1.6.4 - 2025-09-02 =
 

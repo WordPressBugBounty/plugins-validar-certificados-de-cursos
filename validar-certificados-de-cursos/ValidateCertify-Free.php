@@ -1,14 +1,14 @@
 <?php
 /**
  * @package ValidateCertify
- * @copyright Copyright (C) 2023-2025, Systen JRH - soporte@systenjrh.com
+ * @copyright Copyright (C) 2023-2026, Systen JRH - soporte@systenjrh.com
  * @license   http://www.gnu.org/licenses/gpl-3.0.html GNU General Public License, version 3 or higher
  *
  * Plugin Name:        ValidateCertify Free
  * Plugin URI:         https://www.systenjrh.com/plugin-validatecertify/
  * Author:             Systen JRH
  * Author URI:         https://www.systenjrh.com/
- * Version:            1.6.4
+ * Version:            1.6.5
  * Requires at least:  6.0
  * Requires PHP:       7.3
  * Text Domain:        stvc_validatecertify
@@ -17,13 +17,17 @@
  * License URI:        http://www.gnu.org/licenses/gpl-3.0.html
  * Description:        With ValidateCertify Free, you can guarantee the authenticity and veracity of the certificates issued, providing confidence to your students and those who validate them. Simplify the verification process and improve the experience of your users with ValidateCertify. Load your certificate base and validate them with the code from your website.
  *
- * This program is free software: you can redistribute it and/or modify it under the terms of the GNU 
- * General Public License as published by the Free Software Foundation, either version 3 of the License, 
- * or (at your option) any later version.
+ * Copyright (C) 2010-2026 Systen JRH
  *
- * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even 
- * the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public 
- * License for more details.
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
@@ -35,7 +39,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 // Define the current version of the plugin.
-define('stvc_validatecertify_version', '1.6.4');
+define('STVC_VALIDATECERTIFY_VERSION', '1.6.5');
 
 /**
  * Handles tasks during plugin activation.

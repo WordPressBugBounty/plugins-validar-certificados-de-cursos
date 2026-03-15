@@ -74,7 +74,7 @@ if (validar_pagina_vtvc()) {
     // Reemplazar el texto "Versión" seguido de la versión del plugin
     function custom_plugin_version_text( $footer_text ) {
         // Obtener la versión del plugin
-        $plugin_version = defined( 'stvc_validatecertify_version' ) ? stvc_validatecertify_version : '';
+        $plugin_version = defined( 'STVC_VALIDATECERTIFY_VERSION' ) ? STVC_VALIDATECERTIFY_VERSION : '';
 
         // Reemplazar el texto "Versión" seguido de la versión del plugin
         $footer_text = str_replace( __('Version', 'stvc_validatecertify'), __('Version ValidateCertify Free', 'stvc_validatecertify'), $footer_text );

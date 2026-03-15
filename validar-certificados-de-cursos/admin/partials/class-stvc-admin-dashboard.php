@@ -14,7 +14,7 @@ class STVC_Admin_Dashboard {
         // Registra la caja personalizada en el dashboard
         wp_add_dashboard_widget(
             'custom_dashboard_widget_stvc', // ID único de la caja personalizada
-            __('ValidateCertify Free', 'stvc_validatecertify') . ' ' . stvc_validatecertify_version, 
+            __('ValidateCertify Free', 'stvc_validatecertify') . ' ' . STVC_VALIDATECERTIFY_VERSION, 
             array($this, 'render_custom_dashboard_widget_stvc')
         );
     }
@@ -34,7 +34,7 @@ class STVC_Admin_Dashboard {
             <a href="<?php echo esc_url(admin_url('admin.php?page=new_certificates_stvc')); ?>" class="button button-primary"><?php echo esc_html__('Add Certificate', 'stvc_validatecertify'); ?></a>
         </div>
         <div class="custom-dashboard-widget-stvc">
-            <p><?php esc_attr_e('Review ShortCorde.', 'stvc_validatecertify'); ?></p>
+            <p><?php esc_attr_e('ShortCode ValidateCertify', 'stvc_validatecertify'); ?></p>
             <a href="<?php echo esc_url(admin_url('admin.php?page=tools_validatecertify')); ?>" class="button button-primary"><?php echo esc_html__('Tools', 'stvc_validatecertify'); ?></a>
         </div>
         <?php

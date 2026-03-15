@@ -367,6 +367,12 @@ p.search-box {
 	background-color: #e0e0e0;
 }
 
+/* Ajuste adicional para el checkbox */
+.checkbox-small {
+    margin: 0 !important ;
+    top: 50%;
+}
+
 /* Estilos para dispositivos móviles (celulares) */
 @media screen and (max-width:600px) {
 
