@@ -321,7 +321,7 @@ function stvc_modificar_certificados() {
             $cache_key = 'certificado_' . $codigo;
             wp_cache_delete($cache_key); // Limpiar caché vieja
             
-            $mensaje = '<div class="notice notice-success is-dismissible"><p>' . esc_html__('¡Certificado modificado con éxito!', 'stvc_validatecertify') . '</p></div>';
+            $mensaje = '<div class="notice notice-success is-dismissible"><p>' . esc_html__('Certificate successfully modified!', 'stvc_validatecertify') . '</p></div>';
         }
     }
 
@@ -436,7 +436,7 @@ function stvc_eliminar_certificado() {
         
         // Verificación de Nonce para evitar ataques CSRF
         if (!isset($_POST['stvc_nonce_delete']) || !wp_verify_nonce($_POST['stvc_nonce_delete'], 'stvc_action_delete')) {
-            wp_die(esc_html__('Error de seguridad: La solicitud no es válida.', 'stvc_validatecertify'));
+            wp_die(esc_html__('Security error: The request is invalid.', 'stvc_validatecertify'));
         }
 
         $certificados_a_eliminar = array_map('intval', $_POST['certificados']);
@@ -448,7 +448,7 @@ function stvc_eliminar_certificado() {
                 $certificados_a_eliminar
             )
         );
-        echo '<div class="notice notice-success is-dismissible"><p>' . esc_html__('Certificados eliminados correctamente.', 'stvc_validatecertify') . '</p></div>';
+        echo '<div class="notice notice-success is-dismissible"><p>' . esc_html__('Certificates successfully removed.', 'stvc_validatecertify') . '</p></div>';
     }
 
     // Lógica de datos
